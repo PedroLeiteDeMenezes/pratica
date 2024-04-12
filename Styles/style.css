@@ -1,0 +1,144 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: "Anuphan", sans-serif;
+    color: white;
+}
+
+body{
+    margin-bottom: 100px;
+    background-color: rgb(15, 15, 15, 90%);
+    
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 12px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+    margin: 0px 12px;
+    padding: 75px 450px 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.apresentacao__titulo{
+    font-size: 30px;
+}
+
+.apresentacao__conjunto{
+    padding: 0px 12px;
+    text-align: center;
+}
+
+.apresentacao__paragrafo{
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px 0px 8px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.apresentacao__choose{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.arrow{
+    color: rgb(71, 69, 69);
+    margin: 10px;
+}
+
+.popular__titulo{
+    text-align: center;
+    margin-bottom: 0px 0px 20px;
+    font-size: 20px;
+} 
+
+.img{
+    width: 285px;
+    height: 171px;
+    display: block;
+    border-radius: 5px;
+    transition: transform 500ms;
+    opacity: 1 !important;
+}
+
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.popular > div{
+    text-align: center;
+    flex: 1 1 200px;
+    margin: 10px;
+    overflow: hidden;
+    width: 340px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.popular__texto{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Anuphan", sans-serif;
+    text-align: center;
+}
+
+.img:hover{
+    transform: scale(1.1);;
+}
+
+
+.all__games{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.grid__all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1220px;
+    margin: 0 auto;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.apresentacao__2{
+    position: relative;
+    background: transparent;
+}
+
