@@ -10,7 +10,7 @@
 
 body{
     margin-bottom: 100px;
-    background-color: rgb(15, 15, 15, 90%);
+    background-color: rgb(15, 15, 15);
     
 }
 
@@ -90,7 +90,6 @@ a{
     display: block;
     border-radius: 5px;
     transition: transform 500ms;
-    opacity: 1 !important;
 }
 
 .popular{
@@ -142,3 +141,42 @@ a{
     background: transparent;
 }
 
+.cor{
+    background-color: linear-gradient(rgba(15, 15, 15, 0.9), rgb(0, 0, 0, 0.9));
+}
+
+@media screen and (max-width:1238px) {
+    .apresentacao{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .apresentacao__2{
+        width: 100%;
+    }
+
+    .grid__all{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .header{
+        padding: 15px;
+        background-color: rgb(15, 15, 15, 80%);
+        z-index: 1;
+        position: sticky;
+        top: 0;
+    }
+}
